@@ -48,6 +48,32 @@ def one_form(num,typenum,endnum="",lens = 0):
     return one_form(num,typenum,endnum,lens)
 print('进制转换：',one_form(150,16))
 
+
+#利用栈实现递归
+from pythonds.basic.stack import Stack
+
+rStack = Stack()
+
+def toStr(n,base):
+    convertString = '0123456789ABCDEF'
+
+    while n>0:
+        if n<base:
+            rStack.push(convertString[n])
+        else:
+            rStack.push(convertString[n%base])
+
+        n = n // base
+    res = ""
+    while not rStack.isEmpty():
+        res = res + str(rStack.pop())
+    return  res
+print(toStr(150,2))
+
+
+
+
+
 print(one(15))
 #递推法
 def demo(n):  # n最少为3，否则输出4错误
