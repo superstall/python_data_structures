@@ -7,13 +7,48 @@
 #     回溯法 ：走不通回撤，找方法；
 #     分支界限法：对约束条件的 最优化问题的所有可行解进行搜索；
 
-# 递归法 上台阶，一步最多走三
+# 递归法 上台阶，一步最多走三，分解问题，被简单解决 特点：函数调用自身
 def one(n):   #n太
     d = {1:1,2:2,3:3}
     if n in d.keys():
         return  d[n]
     else:
         return one(n-1)+one(n-2)+one(n-3)
+
+def one_two(lists,num=None,sum=0,lens=0):
+    if num == None:
+        num = 0
+        lens = len(lists)
+    if lens <= num or lens ==  0:
+        return sum
+    else:
+        sum = sum+lists[num]
+        num +=1
+        return one_two(lists,num,sum,lens)
+print(one_two([1,2,3,4,5,100]))
+
+#十进制转换
+def one_three(num,typenum):
+    str1 = '0123456789ABCDEF'
+    if num < typenum:
+        return str1[num]
+    else:
+        return  one_three(num//typenum,typenum) + str1[num%typenum]
+print(one_three(1500,16))
+
+def one_form(num,typenum,endnum="",lens = 0):
+    if num<typenum:
+        endnum+=str(num)
+        return endnum[::-1]
+    this_one = num % typenum
+    num = num // typenum
+    endnum = endnum+str(this_one)
+    print(num,endnum,this_one)
+    lens+=1
+    return one_form(num,typenum,endnum,lens)
+print('进制转换：',one_form(150,16))
+
+print(one(15))
 #递推法
 def demo(n):  # n最少为3，否则输出4错误
     a=1
