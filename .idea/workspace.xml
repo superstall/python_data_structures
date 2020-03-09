@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c3f5910-4b74-4fa9-b1a4-60efcf72f62e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/project/huatu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/num1234.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/one.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/one.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,17 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="931">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/huatu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/huatu.py">
+        <entry file="file://$PROJECT_DIR$/project/num1234.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="418">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -90,12 +99,13 @@
         <option value="$PROJECT_DIR$/project/deqye.py" />
         <option value="$PROJECT_DIR$/project/one.py" />
         <option value="$PROJECT_DIR$/project/huatu.py" />
+        <option value="$PROJECT_DIR$/project/num1234.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="468" />
-    <option name="y" value="44" />
+    <option name="x" value="804" />
+    <option name="y" value="66" />
     <option name="width" value="1247" />
     <option name="height" value="1012" />
   </component>
@@ -301,17 +311,19 @@
       <workItem from="1583368041441" duration="5344000" />
       <workItem from="1583378548497" duration="6100000" />
       <workItem from="1583453389692" duration="13255000" />
+      <workItem from="1583714490639" duration="3301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45827000" />
+    <option name="totallyTimeSpent" value="49128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="468" y="44" width="1247" height="1012" extended-state="0" />
+    <frame x="804" y="66" width="1247" height="1012" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49544418" visible="true" weight="0.26621735" />
-      <window_info id="Structure" order="1" sideWeight="0.5045558" side_tool="true" visible="true" weight="0.26621735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49430525" visible="true" weight="0.27042964" />
+      <window_info id="Structure" order="1" sideWeight="0.50569475" side_tool="true" visible="true" weight="0.27042964" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -372,6 +384,13 @@
     <entry file="file://$PROJECT_DIR$/project/pip-selfcheck.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/deqye.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -379,17 +398,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/one.py">
+    <entry file="file://$PROJECT_DIR$/project/huatu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="199">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/huatu.py">
+    <entry file="file://$PROJECT_DIR$/project/num1234.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="418">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
